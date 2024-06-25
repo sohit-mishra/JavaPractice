@@ -1,3 +1,4 @@
+package Day1;
 import java.util.*;
 
 class Main {
@@ -38,5 +39,6 @@ class Main {
         String a = scanner.nextLine();
         System.out.println(a);
 
+        
     }
 }
