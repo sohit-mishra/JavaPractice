@@ -23,8 +23,8 @@ class Main {
         System.out.println(solve);
         System.out.println(solve1);
 
-        String a = "Hello World";
-        System.out.println(a);
+        String aq = "Hello World";
+        System.out.println(aq);
 
         if (50 < 60) {
             System.out.println("50 is smaller than 60");
@@ -36,9 +36,11 @@ class Main {
         System.out.println(result);
 
         Scanner scanner = new Scanner(System.in);
-        String a = scanner.nextLine();
-        System.out.println(a);
+        String ab = scanner.nextLine();
+        System.out.println(ab);
 
-        
+        for (int i = 0; i < args.length; i++) {
+            System.out.println("x");
+        }
     }
 }
